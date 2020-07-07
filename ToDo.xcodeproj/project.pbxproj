@@ -15,6 +15,8 @@
 		11E4E9C224B42088007A5254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E4E9C124B42088007A5254 /* Preview Assets.xcassets */; };
 		11E4E9C524B42088007A5254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E4E9C324B42088007A5254 /* LaunchScreen.storyboard */; };
 		11E4E9D024B42088007A5254 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4E9CF24B42088007A5254 /* ToDoTests.swift */; };
+		11E4E9DB24B42195007A5254 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4E9DA24B42195007A5254 /* ToDoItem.swift */; };
+		11E4E9DD24B42BDC007A5254 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4E9DC24B42BDC007A5254 /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		11E4E9CB24B42088007A5254 /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E4E9CF24B42088007A5254 /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
 		11E4E9D124B42088007A5254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E4E9DA24B42195007A5254 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		11E4E9DC24B42BDC007A5254 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				11E4E9B524B42087007A5254 /* AppDelegate.swift */,
 				11E4E9B724B42087007A5254 /* SceneDelegate.swift */,
 				11E4E9BC24B42087007A5254 /* ContentView.swift */,
+				11E4E9DC24B42BDC007A5254 /* ToDoItemView.swift */,
+				11E4E9DA24B42195007A5254 /* ToDoItem.swift */,
 				11E4E9BE24B42088007A5254 /* Assets.xcassets */,
 				11E4E9C324B42088007A5254 /* LaunchScreen.storyboard */,
 				11E4E9C624B42088007A5254 /* Info.plist */,
@@ -212,7 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E4E9B624B42087007A5254 /* AppDelegate.swift in Sources */,
+				11E4E9DD24B42BDC007A5254 /* ToDoItemView.swift in Sources */,
 				11E4E9BB24B42087007A5254 /* ToDo.xcdatamodeld in Sources */,
+				11E4E9DB24B42195007A5254 /* ToDoItem.swift in Sources */,
 				11E4E9BD24B42087007A5254 /* ContentView.swift in Sources */,
 				11E4E9B824B42087007A5254 /* SceneDelegate.swift in Sources */,
 			);
